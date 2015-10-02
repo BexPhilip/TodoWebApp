@@ -35,7 +35,7 @@ namespace WebApp.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("This is a test application.", result.ViewBag.Message);
+            Assert.AreEqual("This test application has been modified.", result.ViewBag.Message);
         }
 
         [Test]
