@@ -15,6 +15,8 @@ namespace WebApp.Controllers
 
         public ActionResult About()
         {
+      SecondProject.TestClass.SomeProperty = "hello world";
+
             ViewBag.Message = "This is a CI & CD test application.";
 
             return View();
