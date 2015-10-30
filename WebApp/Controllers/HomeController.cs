@@ -15,7 +15,7 @@ namespace WebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "This test application has been modified.";
+            ViewBag.Message = "This is a CI & CD test application.";
 
             return View();
         }
